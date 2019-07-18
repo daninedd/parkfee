@@ -1,0 +1,656 @@
+2019-07-18 06:39:35.037  WARN 48233 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h59m19s539ms).
+2019-07-18 08:00:06.068  WARN 48233 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m31s51ms).
+2019-07-18 09:00:26.534  WARN 48233 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20s475ms).
+2019-07-18 09:05:34.230  INFO 57828 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 57828 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 09:05:34.231  INFO 57828 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 09:05:34.730  INFO 57828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 09:05:34.790  INFO 57828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-07-18 09:05:35.079  INFO 57828 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$222ebfd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 09:05:35.258  INFO 57828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 09:05:35.678  INFO 57828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 09:05:35.734  INFO 57828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 09:05:35.816  INFO 57828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 09:05:35.818  INFO 57828 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 09:05:35.973  INFO 57828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 09:05:36.094  INFO 57828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 09:05:36.743  INFO 57828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 09:05:37.119  INFO 57828 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 09:05:37.894  INFO 57828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 09:05:37.949  WARN 57828 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 09:05:38.251  INFO 57828 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 4.24 seconds (JVM running for 4.857)
+2019-07-18 09:05:38.342  INFO 57828 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 09:05:38.343  INFO 57828 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 09:05:38.345  INFO 57828 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 09:05:38.349  INFO 57828 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 09:38:29.440  INFO 58025 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 58025 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 09:38:29.441  INFO 58025 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 09:38:29.933  INFO 58025 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 09:38:30.010  INFO 58025 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 repository interfaces.
+2019-07-18 09:38:30.367  INFO 58025 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a81da618] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 09:38:30.540  INFO 58025 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 09:38:30.834  INFO 58025 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 09:38:30.882  INFO 58025 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 09:38:30.930  INFO 58025 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 09:38:30.931  INFO 58025 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 09:38:31.047  INFO 58025 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 09:38:31.149  INFO 58025 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 09:38:31.605  INFO 58025 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 09:38:31.923  INFO 58025 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 09:38:32.646  INFO 58025 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 09:38:32.690  WARN 58025 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 09:38:32.956  INFO 58025 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 3.694 seconds (JVM running for 4.207)
+2019-07-18 09:38:33.034  INFO 58025 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 09:38:33.035  INFO 58025 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 09:38:33.036  INFO 58025 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 09:38:33.041  INFO 58025 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 13:50:56.428  INFO 59807 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 59807 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 13:50:56.429  INFO 59807 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 13:50:56.894  INFO 59807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 13:50:56.959  INFO 59807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2019-07-18 13:50:57.292  INFO 59807 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc94182d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 13:50:57.448  INFO 59807 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 13:50:57.733  INFO 59807 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 13:50:57.777  INFO 59807 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 13:50:57.820  INFO 59807 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 13:50:57.821  INFO 59807 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 13:50:57.928  INFO 59807 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 13:50:58.035  INFO 59807 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 13:50:58.492  INFO 59807 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 13:50:58.804  INFO 59807 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 13:50:59.540  INFO 59807 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 13:50:59.586  WARN 59807 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 13:50:59.841  INFO 59807 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 3.612 seconds (JVM running for 4.128)
+2019-07-18 13:50:59.930  INFO 59807 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 13:50:59.931  INFO 59807 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 13:50:59.932  INFO 59807 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 13:50:59.937  INFO 59807 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 14:21:24.319  INFO 59911 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 59911 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 14:21:24.321  INFO 59911 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 14:21:24.809  INFO 59911 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 14:21:24.875  INFO 59911 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-07-18 14:21:25.109  INFO 59911 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f1aef36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 14:21:25.312  INFO 59911 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 14:21:25.329  INFO 59911 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 14:21:25.330  INFO 59911 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 14:21:25.415  INFO 59911 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 14:21:25.415  INFO 59911 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1062 ms
+2019-07-18 14:21:25.522  INFO 59911 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 14:21:25.774  INFO 59911 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 14:21:25.803  INFO 59911 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 14:21:25.843  INFO 59911 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 14:21:25.844  INFO 59911 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 14:21:25.922  INFO 59911 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 14:21:26.003  INFO 59911 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 14:21:26.504  INFO 59911 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:21:26.843  INFO 59911 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:21:26.887  WARN 59911 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 14:21:27.009  INFO 59911 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 14:21:27.010  INFO 59911 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.021 seconds (JVM running for 3.45)
+2019-07-18 14:23:17.201  INFO 59911 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:23:17.202  INFO 59911 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:23:17.205  INFO 59911 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 14:23:17.208  INFO 59911 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 14:23:19.538  INFO 59921 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 59921 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 14:23:19.540  INFO 59921 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 14:23:20.035  INFO 59921 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 14:23:20.091  INFO 59921 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2019-07-18 14:23:20.306  INFO 59921 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b59a29be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 14:23:20.484  INFO 59921 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 14:23:20.502  INFO 59921 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 14:23:20.502  INFO 59921 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 14:23:20.591  INFO 59921 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 14:23:20.591  INFO 59921 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1020 ms
+2019-07-18 14:23:20.697  INFO 59921 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 14:23:20.958  INFO 59921 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 14:23:20.991  INFO 59921 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 14:23:21.037  INFO 59921 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 14:23:21.038  INFO 59921 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 14:23:21.130  INFO 59921 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 14:23:21.218  INFO 59921 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 14:23:21.637  INFO 59921 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:23:22.058  INFO 59921 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:23:22.091  WARN 59921 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 14:23:22.232  INFO 59921 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 14:23:22.234  INFO 59921 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 2.983 seconds (JVM running for 3.385)
+2019-07-18 14:25:52.313  INFO 59930 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 59930 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 14:25:52.314  INFO 59930 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 14:25:52.836  INFO 59930 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 14:25:52.906  INFO 59930 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-07-18 14:25:53.267  INFO 59930 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8afa63a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 14:25:53.431  INFO 59930 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 14:25:53.734  INFO 59930 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 14:25:53.779  INFO 59930 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 14:25:53.826  INFO 59930 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 14:25:53.827  INFO 59930 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 14:25:53.940  INFO 59930 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 14:25:54.045  INFO 59930 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 14:25:54.512  INFO 59930 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:25:55.289  INFO 59930 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:25:55.341  WARN 59930 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 14:25:55.621  INFO 59930 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 3.494 seconds (JVM running for 3.993)
+2019-07-18 14:25:55.820  INFO 59930 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:25:55.820  INFO 59930 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:25:55.821  INFO 59930 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 14:25:55.826  INFO 59930 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 14:35:58.669  INFO 59921 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:35:58.670  INFO 59921 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:35:58.673  INFO 59921 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 14:35:58.677  INFO 59921 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 14:36:03.092  INFO 59978 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 59978 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 14:36:03.094  INFO 59978 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 14:36:03.609  INFO 59978 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 14:36:03.666  INFO 59978 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-07-18 14:36:03.944  INFO 59978 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bcef45b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 14:36:04.168  INFO 59978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 14:36:04.186  INFO 59978 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 14:36:04.187  INFO 59978 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 14:36:04.260  INFO 59978 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 14:36:04.260  INFO 59978 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1132 ms
+2019-07-18 14:36:04.372  INFO 59978 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 14:36:04.661  INFO 59978 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 14:36:04.697  INFO 59978 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 14:36:04.741  INFO 59978 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 14:36:04.742  INFO 59978 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 14:36:04.832  INFO 59978 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 14:36:04.917  INFO 59978 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 14:36:05.334  INFO 59978 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:36:05.746  INFO 59978 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:36:05.776  WARN 59978 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 14:36:05.927  INFO 59978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 14:36:05.929  INFO 59978 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.165 seconds (JVM running for 3.596)
+2019-07-18 14:36:56.450  INFO 59978 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:36:56.451  INFO 59978 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:36:56.454  INFO 59978 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 14:36:56.458  INFO 59978 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 14:36:59.258  INFO 59982 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 59982 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 14:36:59.261  INFO 59982 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 14:36:59.774  INFO 59982 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 14:36:59.822  INFO 59982 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-07-18 14:37:00.080  INFO 59982 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80a0d5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 14:37:00.287  INFO 59982 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 14:37:00.304  INFO 59982 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 14:37:00.304  INFO 59982 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 14:37:00.376  INFO 59982 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 14:37:00.376  INFO 59982 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1083 ms
+2019-07-18 14:37:00.483  INFO 59982 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 14:37:00.721  INFO 59982 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 14:37:00.752  INFO 59982 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 14:37:00.795  INFO 59982 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 14:37:00.796  INFO 59982 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 14:37:00.883  INFO 59982 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 14:37:00.972  INFO 59982 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 14:37:01.357  INFO 59982 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:37:01.751  INFO 59982 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:37:01.782  WARN 59982 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 14:37:01.877  INFO 59982 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 14:37:01.942  INFO 59982 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 14:37:01.944  INFO 59982 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 2.972 seconds (JVM running for 3.367)
+2019-07-18 14:37:35.945  INFO 59982 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 14:37:35.945  INFO 59982 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 14:37:35.946  INFO 59982 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 14:37:35.949  INFO 59982 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 14:37:35.952  INFO 59982 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 15:29:42.915  INFO 60370 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60370 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 15:29:42.919  INFO 60370 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 15:29:43.426  INFO 60370 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 15:29:43.498  INFO 60370 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 1 repository interfaces.
+2019-07-18 15:29:43.827  INFO 60370 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8258eb25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 15:29:44.048  INFO 60370 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 15:29:44.065  INFO 60370 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 15:29:44.065  INFO 60370 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 15:29:44.130  INFO 60370 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 15:29:44.130  INFO 60370 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1176 ms
+2019-07-18 15:29:44.255  INFO 60370 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 15:29:44.536  INFO 60370 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 15:29:44.568  INFO 60370 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 15:29:44.609  INFO 60370 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 15:29:44.610  INFO 60370 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 15:29:44.693  INFO 60370 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 15:29:44.783  INFO 60370 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 15:29:45.211  INFO 60370 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:29:45.626  INFO 60370 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:29:45.657  WARN 60370 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 15:29:45.752  INFO 60370 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 15:29:45.821  INFO 60370 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 15:29:45.824  INFO 60370 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.23 seconds (JVM running for 3.649)
+2019-07-18 15:31:59.643  INFO 60370 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 15:31:59.644  INFO 60370 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:31:59.645  INFO 60370 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:31:59.647  INFO 60370 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 15:31:59.650  INFO 60370 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 15:32:01.810  INFO 60380 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60380 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 15:32:01.813  INFO 60380 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 15:32:02.278  INFO 60380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 15:32:02.339  INFO 60380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-07-18 15:32:02.598  INFO 60380 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17bab5b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 15:32:02.768  INFO 60380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 15:32:02.784  INFO 60380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 15:32:02.784  INFO 60380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 15:32:02.878  INFO 60380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 15:32:02.878  INFO 60380 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1032 ms
+2019-07-18 15:32:02.983  INFO 60380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 15:32:03.238  INFO 60380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 15:32:03.265  INFO 60380 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 15:32:03.303  INFO 60380 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 15:32:03.304  INFO 60380 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 15:32:03.380  INFO 60380 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 15:32:03.457  INFO 60380 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 15:32:03.854  INFO 60380 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:32:04.255  INFO 60380 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:32:04.285  WARN 60380 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 15:32:04.379  INFO 60380 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 15:32:04.466  INFO 60380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 15:32:04.468  INFO 60380 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 2.974 seconds (JVM running for 3.37)
+2019-07-18 15:32:27.193  INFO 60380 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 15:32:27.194  INFO 60380 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:32:27.194  INFO 60380 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:32:27.196  INFO 60380 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 15:32:27.200  INFO 60380 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 15:43:33.066  INFO 60432 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60432 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 15:43:33.069  INFO 60432 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 15:43:33.613  INFO 60432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 15:43:33.691  INFO 60432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-07-18 15:43:33.974  INFO 60432 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41827429] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 15:43:34.205  INFO 60432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 15:43:34.223  INFO 60432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 15:43:34.224  INFO 60432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 15:43:34.318  INFO 60432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 15:43:34.319  INFO 60432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1212 ms
+2019-07-18 15:43:34.444  INFO 60432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 15:43:34.715  INFO 60432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 15:43:34.748  INFO 60432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 15:43:34.791  INFO 60432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 15:43:34.792  INFO 60432 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 15:43:34.881  INFO 60432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 15:43:34.975  INFO 60432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 15:43:35.476  INFO 60432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:43:35.984  INFO 60432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:43:36.018  WARN 60432 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 15:43:36.143  INFO 60432 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 15:43:36.216  INFO 60432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 15:43:36.218  INFO 60432 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.473 seconds (JVM running for 3.892)
+2019-07-18 15:44:14.158  INFO 60432 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 15:44:14.158  INFO 60432 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:44:14.159  INFO 60432 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:44:14.161  INFO 60432 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 15:44:14.164  INFO 60432 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 15:59:03.300  INFO 60710 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60710 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 15:59:03.302  INFO 60710 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 15:59:03.806  INFO 60710 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 15:59:03.860  INFO 60710 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2019-07-18 15:59:04.140  INFO 60710 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$662e5627] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 15:59:04.352  INFO 60710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 15:59:04.369  INFO 60710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 15:59:04.369  INFO 60710 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 15:59:04.437  INFO 60710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 15:59:04.437  INFO 60710 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1103 ms
+2019-07-18 15:59:04.556  INFO 60710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 15:59:04.812  INFO 60710 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 15:59:04.843  INFO 60710 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 15:59:04.883  INFO 60710 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 15:59:04.884  INFO 60710 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 15:59:04.962  INFO 60710 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 15:59:05.048  INFO 60710 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 15:59:05.450  INFO 60710 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:59:05.852  INFO 60710 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:59:05.884  WARN 60710 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 15:59:05.980  INFO 60710 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 15:59:06.047  INFO 60710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 15:59:06.049  INFO 60710 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.082 seconds (JVM running for 3.517)
+2019-07-18 15:59:13.628  INFO 60710 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 15:59:13.628  INFO 60710 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 15:59:13.629  INFO 60710 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 15:59:13.631  INFO 60710 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 15:59:13.634  INFO 60710 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:24:15.340  INFO 60839 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60839 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:24:15.342  INFO 60839 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:24:15.870  INFO 60839 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:24:15.931  INFO 60839 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-07-18 16:24:16.222  INFO 60839 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f5c6c9cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:24:16.433  INFO 60839 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:24:16.450  INFO 60839 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:24:16.450  INFO 60839 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:24:16.519  INFO 60839 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:24:16.519  INFO 60839 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1137 ms
+2019-07-18 16:24:16.627  INFO 60839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:24:16.881  INFO 60839 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:24:16.918  INFO 60839 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:24:16.968  INFO 60839 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:24:16.970  INFO 60839 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:24:17.079  INFO 60839 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:24:17.182  INFO 60839 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:24:17.616  INFO 60839 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:24:18.052  INFO 60839 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:24:18.083  WARN 60839 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:24:18.176  INFO 60839 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:24:18.241  INFO 60839 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:24:18.243  INFO 60839 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.242 seconds (JVM running for 3.665)
+2019-07-18 16:24:20.060  INFO 60839 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:24:52.717  INFO 60839 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:24:52.717  INFO 60839 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:24:52.718  INFO 60839 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:24:52.721  INFO 60839 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:24:52.724  INFO 60839 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:25:15.137  INFO 60845 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60845 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:25:15.139  INFO 60845 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:25:15.640  INFO 60845 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:25:15.689  INFO 60845 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-07-18 16:25:15.945  INFO 60845 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e772ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:25:16.159  INFO 60845 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:25:16.175  INFO 60845 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:25:16.176  INFO 60845 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:25:16.240  INFO 60845 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:25:16.240  INFO 60845 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1068 ms
+2019-07-18 16:25:16.347  INFO 60845 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:25:16.608  INFO 60845 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:25:16.639  INFO 60845 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:25:16.680  INFO 60845 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:25:16.681  INFO 60845 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:25:16.765  INFO 60845 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:25:16.860  INFO 60845 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:25:17.284  INFO 60845 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:25:17.699  INFO 60845 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:25:17.730  WARN 60845 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:25:17.839  INFO 60845 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:25:17.908  INFO 60845 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:25:17.911  INFO 60845 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.056 seconds (JVM running for 3.471)
+2019-07-18 16:25:20.060  INFO 60845 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:26:02.830  WARN 60845 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s118ms).
+2019-07-18 16:26:02.833  INFO 60845 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:26:02.833  INFO 60845 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:26:02.834  INFO 60845 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:26:02.836  INFO 60845 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:26:02.840  INFO 60845 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:26:04.850  INFO 60849 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 60849 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:26:04.853  INFO 60849 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:26:05.378  INFO 60849 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:26:05.428  INFO 60849 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-07-18 16:26:05.694  INFO 60849 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ce9f720] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:26:05.902  INFO 60849 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:26:05.919  INFO 60849 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:26:05.920  INFO 60849 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:26:05.987  INFO 60849 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:26:05.987  INFO 60849 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1096 ms
+2019-07-18 16:26:06.095  INFO 60849 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:26:06.347  INFO 60849 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:26:06.377  INFO 60849 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:26:06.417  INFO 60849 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:26:06.418  INFO 60849 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:26:06.493  INFO 60849 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:26:06.577  INFO 60849 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:26:06.968  INFO 60849 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:26:07.370  INFO 60849 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:26:07.400  WARN 60849 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:26:07.495  INFO 60849 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:26:07.560  INFO 60849 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:26:07.562  INFO 60849 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.002 seconds (JVM running for 3.401)
+2019-07-18 16:26:10.062  INFO 60849 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:26:23.879  INFO 60849 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:26:23.879  INFO 60849 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:26:23.880  INFO 60849 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:26:23.882  INFO 60849 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:26:23.886  INFO 60849 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:47:34.956  INFO 61129 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61129 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:47:34.959  INFO 61129 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:47:35.513  INFO 61129 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:47:35.578  INFO 61129 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 1 repository interfaces.
+2019-07-18 16:47:35.840  INFO 61129 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22ecc3bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:47:36.044  INFO 61129 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:47:36.061  INFO 61129 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:47:36.062  INFO 61129 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:47:36.157  INFO 61129 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:47:36.158  INFO 61129 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1162 ms
+2019-07-18 16:47:36.270  INFO 61129 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:47:36.531  INFO 61129 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:47:36.562  INFO 61129 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:47:36.603  INFO 61129 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:47:36.604  INFO 61129 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:47:36.686  INFO 61129 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:47:36.771  INFO 61129 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:47:37.214  INFO 61129 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:47:37.625  INFO 61129 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:47:37.656  WARN 61129 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:47:37.772  INFO 61129 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:47:37.834  INFO 61129 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:47:37.836  INFO 61129 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.172 seconds (JVM running for 3.586)
+2019-07-18 16:47:40.057  INFO 61129 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:47:54.885  INFO 61129 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:47:54.885  INFO 61129 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:47:54.886  INFO 61129 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:47:54.888  INFO 61129 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:47:54.891  INFO 61129 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:48:11.368  INFO 61137 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61137 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:48:11.370  INFO 61137 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:48:11.925  INFO 61137 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:48:11.988  INFO 61137 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2019-07-18 16:48:12.261  INFO 61137 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aef51d94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:48:12.477  INFO 61137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:48:12.494  INFO 61137 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:48:12.495  INFO 61137 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:48:12.562  INFO 61137 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:48:12.562  INFO 61137 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1159 ms
+2019-07-18 16:48:12.670  INFO 61137 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:48:12.928  INFO 61137 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:48:12.961  INFO 61137 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:48:13.006  INFO 61137 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:48:13.007  INFO 61137 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:48:13.098  INFO 61137 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:48:13.189  INFO 61137 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:48:13.619  INFO 61137 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:48:14.022  INFO 61137 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:48:14.053  WARN 61137 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:48:14.155  INFO 61137 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:48:14.224  INFO 61137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:48:14.227  INFO 61137 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.159 seconds (JVM running for 3.575)
+2019-07-18 16:48:15.060  INFO 61137 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:48:30.749  INFO 61137 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:48:30.749  INFO 61137 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:48:30.750  INFO 61137 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:48:30.752  INFO 61137 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:48:30.755  INFO 61137 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 16:50:16.086  INFO 61148 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61148 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 16:50:16.089  INFO 61148 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 16:50:16.645  INFO 61148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 16:50:16.701  INFO 61148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-07-18 16:50:16.981  INFO 61148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd9c0b3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 16:50:17.201  INFO 61148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 16:50:17.218  INFO 61148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 16:50:17.218  INFO 61148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 16:50:17.285  INFO 61148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 16:50:17.285  INFO 61148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1161 ms
+2019-07-18 16:50:17.392  INFO 61148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 16:50:17.631  INFO 61148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 16:50:17.661  INFO 61148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 16:50:17.703  INFO 61148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 16:50:17.704  INFO 61148 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 16:50:17.792  INFO 61148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 16:50:17.878  INFO 61148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 16:50:18.291  INFO 61148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:50:18.705  INFO 61148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:50:18.736  WARN 61148 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 16:50:18.834  INFO 61148 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 16:50:18.904  INFO 61148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 16:50:18.906  INFO 61148 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.119 seconds (JVM running for 3.529)
+2019-07-18 16:50:20.063  INFO 61148 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 16:50:42.492  INFO 61148 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 16:50:42.493  INFO 61148 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 16:50:42.493  INFO 61148 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 16:50:42.495  INFO 61148 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 16:50:42.498  INFO 61148 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 17:00:19.691  INFO 61178 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 61178 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 17:00:19.693  INFO 61178 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 17:00:20.176  INFO 61178 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 17:00:20.244  INFO 61178 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-07-18 17:00:20.613  INFO 61178 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71abe0ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 17:00:20.797  INFO 61178 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 17:00:21.098  INFO 61178 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 17:00:21.145  INFO 61178 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 17:00:21.193  INFO 61178 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 17:00:21.194  INFO 61178 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 17:00:21.302  INFO 61178 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 17:00:21.410  INFO 61178 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 17:00:21.863  INFO 61178 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 17:00:22.672  INFO 61178 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 17:00:22.713  WARN 61178 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 17:00:22.923  INFO 61178 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 17:00:22.981  INFO 61178 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 3.484 seconds (JVM running for 4.07)
+2019-07-18 17:00:23.175  INFO 61178 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 17:00:23.176  INFO 61178 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 17:00:23.177  INFO 61178 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 17:00:23.179  INFO 61178 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 17:00:23.183  INFO 61178 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 18:01:58.923  INFO 61673 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61673 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 18:01:58.926  INFO 61673 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 18:01:59.478  INFO 61673 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 18:01:59.539  INFO 61673 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-07-18 18:01:59.844  INFO 61673 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57d2187e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 18:02:00.077  INFO 61673 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 18:02:00.095  INFO 61673 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 18:02:00.096  INFO 61673 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 18:02:00.168  INFO 61673 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 18:02:00.168  INFO 61673 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1198 ms
+2019-07-18 18:02:00.285  INFO 61673 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 18:02:00.549  INFO 61673 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 18:02:00.582  INFO 61673 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 18:02:00.626  INFO 61673 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 18:02:00.627  INFO 61673 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 18:02:00.721  INFO 61673 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 18:02:00.814  INFO 61673 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 18:02:01.252  INFO 61673 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:01.690  INFO 61673 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:01.722  WARN 61673 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 18:02:01.821  INFO 61673 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 18:02:01.889  INFO 61673 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 18:02:01.892  INFO 61673 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.31 seconds (JVM running for 3.769)
+2019-07-18 18:02:03.061  INFO 61673 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 18:02:03.157  INFO 61673 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 18:02:03.157  INFO 61673 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:03.157  INFO 61673 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:03.159  INFO 61673 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 18:02:03.162  INFO 61673 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 18:02:22.732  INFO 61675 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61675 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 18:02:22.734  INFO 61675 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 18:02:23.257  INFO 61675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 18:02:23.311  INFO 61675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2019-07-18 18:02:23.607  INFO 61675 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49ce2e14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 18:02:23.826  INFO 61675 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 18:02:23.843  INFO 61675 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 18:02:23.843  INFO 61675 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 18:02:23.911  INFO 61675 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 18:02:23.911  INFO 61675 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1144 ms
+2019-07-18 18:02:24.018  INFO 61675 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 18:02:24.280  INFO 61675 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 18:02:24.310  INFO 61675 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 18:02:24.350  INFO 61675 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 18:02:24.351  INFO 61675 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 18:02:24.436  INFO 61675 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 18:02:24.522  INFO 61675 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 18:02:24.934  INFO 61675 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:25.351  INFO 61675 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:25.388  WARN 61675 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 18:02:25.502  INFO 61675 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 18:02:25.570  INFO 61675 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 18:02:25.573  INFO 61675 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.131 seconds (JVM running for 3.54)
+2019-07-18 18:02:27.059  INFO 61675 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 18:02:27.145  INFO 61675 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 18:02:27.146  INFO 61675 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:27.146  INFO 61675 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:27.148  INFO 61675 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 18:02:27.152  INFO 61675 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 18:02:47.224  INFO 61678 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Starting ParkfeeApplication on leideMacBook-Pro.local with PID 61678 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 18:02:47.226  INFO 61678 --- [main] com.daninedd.parkfee.ParkfeeApplication  : The following profiles are active: dev
+2019-07-18 18:02:47.778  INFO 61678 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 18:02:47.838  INFO 61678 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-07-18 18:02:48.125  INFO 61678 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f60bbd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 18:02:48.345  INFO 61678 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-18 18:02:48.362  INFO 61678 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-18 18:02:48.362  INFO 61678 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-18 18:02:48.431  INFO 61678 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-18 18:02:48.431  INFO 61678 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1173 ms
+2019-07-18 18:02:48.539  INFO 61678 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 18:02:48.791  INFO 61678 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 18:02:48.821  INFO 61678 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 18:02:48.863  INFO 61678 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 18:02:48.865  INFO 61678 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 18:02:48.952  INFO 61678 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 18:02:49.037  INFO 61678 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 18:02:49.465  INFO 61678 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:49.896  INFO 61678 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:49.928  WARN 61678 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 18:02:50.030  INFO 61678 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 18:02:50.097  INFO 61678 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-18 18:02:50.099  INFO 61678 --- [main] com.daninedd.parkfee.ParkfeeApplication  : Started ParkfeeApplication in 3.164 seconds (JVM running for 3.571)
+2019-07-18 18:02:51.062  INFO 61678 --- [scheduling-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-18 18:02:57.053  INFO 61678 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 18:02:57.055  INFO 61678 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:02:57.056  INFO 61678 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:02:57.058  INFO 61678 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 18:02:57.062  INFO 61678 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-18 18:04:24.306  INFO 61686 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Starting ParkfeeApplicationTests on leideMacBook-Pro.local with PID 61686 (started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-18 18:04:24.308  INFO 61686 --- [main] c.d.parkfee.ParkfeeApplicationTests      : The following profiles are active: dev
+2019-07-18 18:04:24.843  INFO 61686 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-18 18:04:24.915  INFO 61686 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-07-18 18:04:25.290  INFO 61686 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d8bc096] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-18 18:04:25.471  INFO 61686 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-18 18:04:25.806  INFO 61686 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-18 18:04:25.856  INFO 61686 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-18 18:04:25.902  INFO 61686 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-18 18:04:25.903  INFO 61686 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-18 18:04:26.029  INFO 61686 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-18 18:04:26.137  INFO 61686 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-18 18:04:26.689  INFO 61686 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:04:27.496  INFO 61686 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:04:27.548  WARN 61686 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-18 18:04:27.789  INFO 61686 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-07-18 18:04:27.856  INFO 61686 --- [main] c.d.parkfee.ParkfeeApplicationTests      : Started ParkfeeApplicationTests in 3.76 seconds (JVM running for 4.373)
+2019-07-18 18:04:28.064  INFO 61686 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-07-18 18:04:28.065  INFO 61686 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-18 18:04:28.066  INFO 61686 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-18 18:04:28.068  INFO 61686 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-18 18:04:28.073  INFO 61686 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

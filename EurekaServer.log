@@ -1,0 +1,479 @@
+2019-07-16 14:56:20,804 INFO  ParkfeeApplication:50 -Starting ParkfeeApplication on leideMacBook-Pro.local with PID 48193 (/Users/leideng/IdeaProjects/parkfee/target/classes started by leideng in /Users/leideng/IdeaProjects/parkfee)
+2019-07-16 14:56:20,812 DEBUG ParkfeeApplication:53 -Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 14:56:20,813 INFO  ParkfeeApplication:650 -The following profiles are active: dev
+2019-07-16 14:56:21,769 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-127.0.0.1-8888"]
+2019-07-16 14:56:21,776 INFO  StandardService:173 -Starting service [Tomcat]
+2019-07-16 14:56:21,776 INFO  StandardEngine:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-16 14:56:21,846 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2019-07-16 14:56:21,910 DEBUG HikariConfig:480 -Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-07-16 14:56:21,961 DEBUG HikariConfig:1020 -HikariPool-1 - configuration:
+2019-07-16 14:56:21,965 DEBUG HikariConfig:1052 -allowPoolSuspension.............false
+2019-07-16 14:56:21,965 DEBUG HikariConfig:1052 -autoCommit......................true
+2019-07-16 14:56:21,965 DEBUG HikariConfig:1052 -catalog.........................none
+2019-07-16 14:56:21,966 DEBUG HikariConfig:1052 -connectionInitSql...............none
+2019-07-16 14:56:21,966 DEBUG HikariConfig:1052 -connectionTestQuery.............none
+2019-07-16 14:56:21,966 DEBUG HikariConfig:1052 -connectionTimeout...............30000
+2019-07-16 14:56:21,966 DEBUG HikariConfig:1052 -dataSource......................none
+2019-07-16 14:56:21,967 DEBUG HikariConfig:1052 -dataSourceClassName.............none
+2019-07-16 14:56:21,967 DEBUG HikariConfig:1052 -dataSourceJNDI..................none
+2019-07-16 14:56:21,967 DEBUG HikariConfig:1052 -dataSourceProperties............{password=<masked>}
+2019-07-16 14:56:21,968 DEBUG HikariConfig:1052 -driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-07-16 14:56:21,968 DEBUG HikariConfig:1052 -healthCheckProperties...........{}
+2019-07-16 14:56:21,968 DEBUG HikariConfig:1052 -healthCheckRegistry.............none
+2019-07-16 14:56:21,968 DEBUG HikariConfig:1052 -idleTimeout.....................600000
+2019-07-16 14:56:21,968 DEBUG HikariConfig:1052 -initializationFailTimeout.......1
+2019-07-16 14:56:21,969 DEBUG HikariConfig:1052 -isolateInternalQueries..........false
+2019-07-16 14:56:21,969 DEBUG HikariConfig:1052 -jdbcUrl.........................jdbc:mysql://localhost:3306/parkfee?allowMultiQueries=true
+2019-07-16 14:56:21,969 DEBUG HikariConfig:1052 -leakDetectionThreshold..........0
+2019-07-16 14:56:21,969 DEBUG HikariConfig:1052 -maxLifetime.....................1800000
+2019-07-16 14:56:21,970 DEBUG HikariConfig:1052 -maximumPoolSize.................10
+2019-07-16 14:56:21,970 DEBUG HikariConfig:1052 -metricRegistry..................none
+2019-07-16 14:56:21,970 DEBUG HikariConfig:1052 -metricsTrackerFactory...........none
+2019-07-16 14:56:21,970 DEBUG HikariConfig:1052 -minimumIdle.....................10
+2019-07-16 14:56:21,971 DEBUG HikariConfig:1052 -password........................<masked>
+2019-07-16 14:56:21,971 DEBUG HikariConfig:1052 -poolName........................"HikariPool-1"
+2019-07-16 14:56:21,971 DEBUG HikariConfig:1052 -readOnly........................false
+2019-07-16 14:56:21,971 DEBUG HikariConfig:1052 -registerMbeans..................false
+2019-07-16 14:56:21,972 DEBUG HikariConfig:1052 -scheduledExecutor...............none
+2019-07-16 14:56:21,972 DEBUG HikariConfig:1052 -schema..........................none
+2019-07-16 14:56:21,972 DEBUG HikariConfig:1052 -threadFactory...................internal
+2019-07-16 14:56:21,972 DEBUG HikariConfig:1052 -transactionIsolation............default
+2019-07-16 14:56:21,972 DEBUG HikariConfig:1052 -username........................"root"
+2019-07-16 14:56:21,973 DEBUG HikariConfig:1052 -validationTimeout...............5000
+2019-07-16 14:56:21,973 INFO  HikariDataSource:110 -HikariPool-1 - Starting...
+2019-07-16 14:56:22,246 DEBUG HikariPool:545 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35dece42
+2019-07-16 14:56:22,248 INFO  HikariDataSource:123 -HikariPool-1 - Start completed.
+2019-07-16 14:56:22,280 DEBUG LogHelper:102 -PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (HikariPool-1)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/leideng/IdeaProjects/parkfee/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.daninedd.parkfee.parkfee.FeeDetailData]
+	Mapping files names []
+	Properties []
+2019-07-16 14:56:22,288 DEBUG IntegratorServiceImpl:46 -Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2019-07-16 14:56:22,289 DEBUG IntegratorServiceImpl:46 -Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2019-07-16 14:56:22,290 DEBUG IntegratorServiceImpl:46 -Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2019-07-16 14:56:22,324 INFO  Version:46 -HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-16 14:56:22,325 INFO  Environment:213 -HHH000206: hibernate.properties not found
+2019-07-16 14:56:22,349 DEBUG HikariPool:411 -HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-07-16 14:56:22,359 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fd0393c
+2019-07-16 14:56:22,367 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f190fc7
+2019-07-16 14:56:22,374 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ec2cc48
+2019-07-16 14:56:22,382 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9353e2
+2019-07-16 14:56:22,390 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a8cf633
+2019-07-16 14:56:22,394 DEBUG ServiceBinding:68 -Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2019-07-16 14:56:22,397 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fb7fb28
+2019-07-16 14:56:22,405 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@508eb1ef
+2019-07-16 14:56:22,406 DEBUG RegionFactoryInitiator:118 -Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2019-07-16 14:56:22,407 DEBUG RegionFactoryInitiator:49 -Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2019-07-16 14:56:22,412 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2438193a
+2019-07-16 14:56:22,416 INFO  Version:49 -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-16 14:56:22,419 DEBUG HikariPool:709 -HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@672fd498
+2019-07-16 14:56:22,420 DEBUG HikariPool:411 -HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-07-16 14:56:22,435 DEBUG BasicTypeRegistry:156 -Adding type registration boolean -> org.hibernate.type.BooleanType@87f501f
+2019-07-16 14:56:22,435 DEBUG BasicTypeRegistry:156 -Adding type registration boolean -> org.hibernate.type.BooleanType@87f501f
+2019-07-16 14:56:22,435 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@87f501f
+2019-07-16 14:56:22,436 DEBUG BasicTypeRegistry:156 -Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4863c8ac
+2019-07-16 14:56:22,436 DEBUG BasicTypeRegistry:156 -Adding type registration true_false -> org.hibernate.type.TrueFalseType@1edfedf1
+2019-07-16 14:56:22,437 DEBUG BasicTypeRegistry:156 -Adding type registration yes_no -> org.hibernate.type.YesNoType@1e56bc9b
+2019-07-16 14:56:22,438 DEBUG BasicTypeRegistry:156 -Adding type registration byte -> org.hibernate.type.ByteType@27ab206
+2019-07-16 14:56:22,438 DEBUG BasicTypeRegistry:156 -Adding type registration byte -> org.hibernate.type.ByteType@27ab206
+2019-07-16 14:56:22,438 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@27ab206
+2019-07-16 14:56:22,439 DEBUG BasicTypeRegistry:156 -Adding type registration character -> org.hibernate.type.CharacterType@72c4a3aa
+2019-07-16 14:56:22,439 DEBUG BasicTypeRegistry:156 -Adding type registration char -> org.hibernate.type.CharacterType@72c4a3aa
+2019-07-16 14:56:22,439 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@72c4a3aa
+2019-07-16 14:56:22,440 DEBUG BasicTypeRegistry:156 -Adding type registration short -> org.hibernate.type.ShortType@27e44e9c
+2019-07-16 14:56:22,440 DEBUG BasicTypeRegistry:156 -Adding type registration short -> org.hibernate.type.ShortType@27e44e9c
+2019-07-16 14:56:22,441 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Short -> org.hibernate.type.ShortType@27e44e9c
+2019-07-16 14:56:22,441 DEBUG BasicTypeRegistry:156 -Adding type registration integer -> org.hibernate.type.IntegerType@7dbae40
+2019-07-16 14:56:22,442 DEBUG BasicTypeRegistry:156 -Adding type registration int -> org.hibernate.type.IntegerType@7dbae40
+2019-07-16 14:56:22,442 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7dbae40
+2019-07-16 14:56:22,443 DEBUG BasicTypeRegistry:156 -Adding type registration long -> org.hibernate.type.LongType@7911cc15
+2019-07-16 14:56:22,443 DEBUG BasicTypeRegistry:156 -Adding type registration long -> org.hibernate.type.LongType@7911cc15
+2019-07-16 14:56:22,443 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Long -> org.hibernate.type.LongType@7911cc15
+2019-07-16 14:56:22,444 DEBUG BasicTypeRegistry:156 -Adding type registration float -> org.hibernate.type.FloatType@2c7c0e36
+2019-07-16 14:56:22,444 DEBUG BasicTypeRegistry:156 -Adding type registration float -> org.hibernate.type.FloatType@2c7c0e36
+2019-07-16 14:56:22,444 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2c7c0e36
+2019-07-16 14:56:22,445 DEBUG BasicTypeRegistry:156 -Adding type registration double -> org.hibernate.type.DoubleType@37ca3ca8
+2019-07-16 14:56:22,445 DEBUG BasicTypeRegistry:156 -Adding type registration double -> org.hibernate.type.DoubleType@37ca3ca8
+2019-07-16 14:56:22,445 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@37ca3ca8
+2019-07-16 14:56:22,446 DEBUG BasicTypeRegistry:156 -Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1b7554d4
+2019-07-16 14:56:22,446 DEBUG BasicTypeRegistry:156 -Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1b7554d4
+2019-07-16 14:56:22,447 DEBUG BasicTypeRegistry:156 -Adding type registration big_integer -> org.hibernate.type.BigIntegerType@16f7f59f
+2019-07-16 14:56:22,447 DEBUG BasicTypeRegistry:156 -Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@16f7f59f
+2019-07-16 14:56:22,448 DEBUG BasicTypeRegistry:156 -Adding type registration string -> org.hibernate.type.StringType@6dd79214
+2019-07-16 14:56:22,448 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.String -> org.hibernate.type.StringType@6dd79214
+2019-07-16 14:56:22,448 DEBUG BasicTypeRegistry:156 -Adding type registration nstring -> org.hibernate.type.StringNVarcharType@47058864
+2019-07-16 14:56:22,449 DEBUG BasicTypeRegistry:156 -Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@621f23ac
+2019-07-16 14:56:22,450 DEBUG BasicTypeRegistry:156 -Adding type registration url -> org.hibernate.type.UrlType@4b3a01d8
+2019-07-16 14:56:22,450 DEBUG BasicTypeRegistry:156 -Adding type registration java.net.URL -> org.hibernate.type.UrlType@4b3a01d8
+2019-07-16 14:56:22,450 DEBUG BasicTypeRegistry:156 -Adding type registration Duration -> org.hibernate.type.DurationType@76a9a009
+2019-07-16 14:56:22,451 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.Duration -> org.hibernate.type.DurationType@76a9a009
+2019-07-16 14:56:22,452 DEBUG BasicTypeRegistry:156 -Adding type registration Instant -> org.hibernate.type.InstantType@5866731
+2019-07-16 14:56:22,452 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5866731
+2019-07-16 14:56:22,452 DEBUG BasicTypeRegistry:156 -Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@149aa7b2
+2019-07-16 14:56:22,453 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@149aa7b2
+2019-07-16 14:56:22,453 DEBUG BasicTypeRegistry:156 -Adding type registration LocalDate -> org.hibernate.type.LocalDateType@71c0b742
+2019-07-16 14:56:22,454 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@71c0b742
+2019-07-16 14:56:22,454 DEBUG BasicTypeRegistry:156 -Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@19ad75e5
+2019-07-16 14:56:22,454 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@19ad75e5
+2019-07-16 14:56:22,455 DEBUG BasicTypeRegistry:156 -Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@42cf6349
+2019-07-16 14:56:22,455 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@42cf6349
+2019-07-16 14:56:22,456 DEBUG BasicTypeRegistry:156 -Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4703c998
+2019-07-16 14:56:22,456 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4703c998
+2019-07-16 14:56:22,458 DEBUG BasicTypeRegistry:156 -Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@45bbc52f
+2019-07-16 14:56:22,458 DEBUG BasicTypeRegistry:156 -Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@45bbc52f
+2019-07-16 14:56:22,460 DEBUG BasicTypeRegistry:156 -Adding type registration date -> org.hibernate.type.DateType@7a3f08b6
+2019-07-16 14:56:22,460 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.Date -> org.hibernate.type.DateType@7a3f08b6
+2019-07-16 14:56:22,461 DEBUG BasicTypeRegistry:156 -Adding type registration time -> org.hibernate.type.TimeType@7eaa2bc6
+2019-07-16 14:56:22,461 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7eaa2bc6
+2019-07-16 14:56:22,462 DEBUG BasicTypeRegistry:156 -Adding type registration timestamp -> org.hibernate.type.TimestampType@5bec3e0
+2019-07-16 14:56:22,462 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5bec3e0
+2019-07-16 14:56:22,462 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5bec3e0
+2019-07-16 14:56:22,463 DEBUG BasicTypeRegistry:156 -Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@47569167
+2019-07-16 14:56:22,464 DEBUG BasicTypeRegistry:156 -Adding type registration calendar -> org.hibernate.type.CalendarType@49754e74
+2019-07-16 14:56:22,464 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@49754e74
+2019-07-16 14:56:22,464 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@49754e74
+2019-07-16 14:56:22,465 DEBUG BasicTypeRegistry:156 -Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@38811103
+2019-07-16 14:56:22,466 DEBUG BasicTypeRegistry:156 -Adding type registration locale -> org.hibernate.type.LocaleType@625487a6
+2019-07-16 14:56:22,466 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@625487a6
+2019-07-16 14:56:22,467 DEBUG BasicTypeRegistry:156 -Adding type registration currency -> org.hibernate.type.CurrencyType@5ba1b62e
+2019-07-16 14:56:22,467 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5ba1b62e
+2019-07-16 14:56:22,467 DEBUG BasicTypeRegistry:156 -Adding type registration timezone -> org.hibernate.type.TimeZoneType@3d1c933
+2019-07-16 14:56:22,468 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3d1c933
+2019-07-16 14:56:22,468 DEBUG BasicTypeRegistry:156 -Adding type registration class -> org.hibernate.type.ClassType@6744707b
+2019-07-16 14:56:22,468 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6744707b
+2019-07-16 14:56:22,469 DEBUG BasicTypeRegistry:156 -Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@24a4e2c5
+2019-07-16 14:56:22,469 DEBUG BasicTypeRegistry:156 -Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@24a4e2c5
+2019-07-16 14:56:22,469 DEBUG BasicTypeRegistry:156 -Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@77aea
+2019-07-16 14:56:22,470 DEBUG BasicTypeRegistry:156 -Adding type registration binary -> org.hibernate.type.BinaryType@433ef204
+2019-07-16 14:56:22,471 DEBUG BasicTypeRegistry:156 -Adding type registration byte[] -> org.hibernate.type.BinaryType@433ef204
+2019-07-16 14:56:22,471 DEBUG BasicTypeRegistry:156 -Adding type registration [B -> org.hibernate.type.BinaryType@433ef204
+2019-07-16 14:56:22,472 DEBUG BasicTypeRegistry:156 -Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@23ee2ccf
+2019-07-16 14:56:22,472 DEBUG BasicTypeRegistry:156 -Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@23ee2ccf
+2019-07-16 14:56:22,472 DEBUG BasicTypeRegistry:156 -Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@23ee2ccf
+2019-07-16 14:56:22,473 DEBUG BasicTypeRegistry:156 -Adding type registration row_version -> org.hibernate.type.RowVersionType@103c97ff
+2019-07-16 14:56:22,473 DEBUG BasicTypeRegistry:156 -Adding type registration image -> org.hibernate.type.ImageType@6206b4a7
+2019-07-16 14:56:22,474 DEBUG BasicTypeRegistry:156 -Adding type registration characters -> org.hibernate.type.CharArrayType@66756662
+2019-07-16 14:56:22,474 DEBUG BasicTypeRegistry:156 -Adding type registration char[] -> org.hibernate.type.CharArrayType@66756662
+2019-07-16 14:56:22,474 DEBUG BasicTypeRegistry:156 -Adding type registration [C -> org.hibernate.type.CharArrayType@66756662
+2019-07-16 14:56:22,475 DEBUG BasicTypeRegistry:156 -Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@40d96578
+2019-07-16 14:56:22,475 DEBUG BasicTypeRegistry:156 -Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@40d96578
+2019-07-16 14:56:22,475 DEBUG BasicTypeRegistry:156 -Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@40d96578
+2019-07-16 14:56:22,475 DEBUG BasicTypeRegistry:156 -Adding type registration text -> org.hibernate.type.TextType@3e03046d
+2019-07-16 14:56:22,476 DEBUG BasicTypeRegistry:156 -Adding type registration ntext -> org.hibernate.type.NTextType@35d7386b
+2019-07-16 14:56:22,476 DEBUG BasicTypeRegistry:156 -Adding type registration blob -> org.hibernate.type.BlobType@569348e1
+2019-07-16 14:56:22,477 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@569348e1
+2019-07-16 14:56:22,477 DEBUG BasicTypeRegistry:156 -Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4db0ba1c
+2019-07-16 14:56:22,478 DEBUG BasicTypeRegistry:156 -Adding type registration clob -> org.hibernate.type.ClobType@2d70f312
+2019-07-16 14:56:22,478 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2d70f312
+2019-07-16 14:56:22,479 DEBUG BasicTypeRegistry:156 -Adding type registration nclob -> org.hibernate.type.NClobType@418f0534
+2019-07-16 14:56:22,479 DEBUG BasicTypeRegistry:156 -Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@418f0534
+2019-07-16 14:56:22,479 DEBUG BasicTypeRegistry:156 -Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2aa5bd48
+2019-07-16 14:56:22,480 DEBUG BasicTypeRegistry:156 -Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1ec88aa1
+2019-07-16 14:56:22,481 DEBUG BasicTypeRegistry:156 -Adding type registration serializable -> org.hibernate.type.SerializableType@6aff97d6
+2019-07-16 14:56:22,483 DEBUG BasicTypeRegistry:156 -Adding type registration object -> org.hibernate.type.ObjectType@8f57e4c
+2019-07-16 14:56:22,483 DEBUG BasicTypeRegistry:156 -Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@8f57e4c
+2019-07-16 14:56:22,483 DEBUG BasicTypeRegistry:156 -Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1e92c3b6
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6ef4cbe1
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@207dd1b7
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2baac4a7
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@23ad2d17
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6bce4140
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@25f0c5e7
+2019-07-16 14:56:22,484 DEBUG BasicTypeRegistry:156 -Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5882b202
+2019-07-16 14:56:22,489 DEBUG BootstrapContextImpl:262 -Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5345dfe8] into BootstrapContext; was [null]
+2019-07-16 14:56:22,489 DEBUG ClassLoaderAccessImpl:45 -ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5345dfe8) [was null]
+2019-07-16 14:56:22,490 DEBUG BootstrapContextImpl:272 -Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@401e02b4] into BootstrapContext; was [null]
+2019-07-16 14:56:22,490 DEBUG BootstrapContextImpl:267 -Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@164d01ba] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@18c880ea]
+2019-07-16 14:56:22,510 DEBUG BootstrapContextImpl:262 -Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5345dfe8]
+2019-07-16 14:56:22,510 DEBUG ClassLoaderAccessImpl:45 -ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5345dfe8]
+2019-07-16 14:56:22,516 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2019-07-16 14:56:22,516 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2019-07-16 14:56:22,517 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2019-07-16 14:56:22,517 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2019-07-16 14:56:22,517 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2019-07-16 14:56:22,518 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2019-07-16 14:56:22,519 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2019-07-16 14:56:22,519 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-07-16 14:56:22,520 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2019-07-16 14:56:22,520 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2019-07-16 14:56:22,521 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2019-07-16 14:56:22,521 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2019-07-16 14:56:22,522 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2019-07-16 14:56:22,522 DEBUG DefaultIdentifierGeneratorFactory:81 -Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2019-07-16 14:56:22,526 DEBUG JdbcEnvironmentInitiator:72 -Database ->
+       name : MySQL
+    version : 8.0.16
+      major : 8
+      minor : 0
+2019-07-16 14:56:22,527 DEBUG JdbcEnvironmentInitiator:83 -Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+2019-07-16 14:56:22,527 DEBUG JdbcEnvironmentInitiator:389 -JDBC version : 4.2
+2019-07-16 14:56:22,533 INFO  Dialect:157 -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-07-16 14:56:22,568 DEBUG IdentifierHelperBuilder:117 -JDBC driver metadata reported database stores quoted identifiers in more than one case
+2019-07-16 14:56:22,569 DEBUG IdentifierHelperBuilder:191 -IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2019-07-16 14:56:22,577 DEBUG Namespace:47 -Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2019-07-16 14:56:22,579 DEBUG TypeConfiguration$Scope:142 -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42107318] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4e4f4092]
+2019-07-16 14:56:22,594 DEBUG AnnotationBinder:551 -Binding entity from annotated class: com.daninedd.parkfee.parkfee.FeeDetailData
+2019-07-16 14:56:22,609 DEBUG Ejb3Column:213 -Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2019-07-16 14:56:22,613 DEBUG EntityBinder:430 -Import with entity name FeeDetailData
+2019-07-16 14:56:22,616 DEBUG EntityBinder:873 -Bind entity com.daninedd.parkfee.parkfee.FeeDetailData on table parkfee_fee_detail
+2019-07-16 14:56:22,631 DEBUG Ejb3Column:213 -Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parkfee_fee_detail), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2019-07-16 14:56:22,633 DEBUG PropertyBinder:175 -MetadataSourceProcessor property id with lazy=false
+2019-07-16 14:56:22,634 DEBUG AbstractPropertyHolder:94 -Attempting to locate auto-apply AttributeConverter for property [com.daninedd.parkfee.parkfee.FeeDetailData:id]
+2019-07-16 14:56:22,635 DEBUG SimpleValueBinder:411 -building SimpleValue for id
+2019-07-16 14:56:22,637 DEBUG PropertyBinder:266 -Building property id
+2019-07-16 14:56:22,641 DEBUG BinderHelper:644 -#makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2019-07-16 14:56:22,641 DEBUG Ejb3Column:213 -Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parkfee_fee_detail), mappingColumn=create_time, insertable=true, updatable=true, unique=false}
+2019-07-16 14:56:22,641 DEBUG PropertyBinder:175 -MetadataSourceProcessor property createTime with lazy=false
+2019-07-16 14:56:22,641 DEBUG AbstractPropertyHolder:94 -Attempting to locate auto-apply AttributeConverter for property [com.daninedd.parkfee.parkfee.FeeDetailData:createTime]
+2019-07-16 14:56:22,642 DEBUG SimpleValueBinder:411 -building SimpleValue for createTime
+2019-07-16 14:56:22,642 DEBUG PropertyBinder:266 -Building property createTime
+2019-07-16 14:56:22,642 DEBUG Ejb3Column:213 -Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parkfee_fee_detail), mappingColumn=date, insertable=true, updatable=true, unique=false}
+2019-07-16 14:56:22,643 DEBUG PropertyBinder:175 -MetadataSourceProcessor property date with lazy=false
+2019-07-16 14:56:22,643 DEBUG AbstractPropertyHolder:94 -Attempting to locate auto-apply AttributeConverter for property [com.daninedd.parkfee.parkfee.FeeDetailData:date]
+2019-07-16 14:56:22,643 DEBUG SimpleValueBinder:411 -building SimpleValue for date
+2019-07-16 14:56:22,643 DEBUG PropertyBinder:266 -Building property date
+2019-07-16 14:56:22,643 DEBUG Ejb3Column:213 -Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parkfee_fee_detail), mappingColumn=fee, insertable=true, updatable=true, unique=false}
+2019-07-16 14:56:22,643 DEBUG PropertyBinder:175 -MetadataSourceProcessor property fee with lazy=false
+2019-07-16 14:56:22,644 DEBUG AbstractPropertyHolder:94 -Attempting to locate auto-apply AttributeConverter for property [com.daninedd.parkfee.parkfee.FeeDetailData:fee]
+2019-07-16 14:56:22,644 DEBUG SimpleValueBinder:411 -building SimpleValue for fee
+2019-07-16 14:56:22,644 DEBUG PropertyBinder:266 -Building property fee
+2019-07-16 14:56:22,645 DEBUG SimpleValueBinder:456 -Starting fillSimpleValue for id
+2019-07-16 14:56:22,645 DEBUG SimpleValueBinder:456 -Starting fillSimpleValue for createTime
+2019-07-16 14:56:22,645 DEBUG SimpleValueBinder:456 -Starting fillSimpleValue for date
+2019-07-16 14:56:22,645 DEBUG SimpleValueBinder:456 -Starting fillSimpleValue for fee
+2019-07-16 14:56:22,646 DEBUG PrimaryKey:35 -Forcing column [id] to be non-null as it is part of the primary key for table [parkfee_fee_detail]
+2019-07-16 14:56:22,667 DEBUG SessionFactoryImpl:197 -Building session factory
+2019-07-16 14:56:22,668 DEBUG Settings:70 -SessionFactory name : null
+2019-07-16 14:56:22,668 DEBUG Settings:71 -Automatic flush during beforeCompletion(): enabled
+2019-07-16 14:56:22,668 DEBUG Settings:72 -Automatic session close at end of transaction: disabled
+2019-07-16 14:56:22,669 DEBUG Settings:74 -Statistics: disabled
+2019-07-16 14:56:22,669 DEBUG Settings:76 -Deleted entity synthetic identifier rollback: disabled
+2019-07-16 14:56:22,669 DEBUG Settings:77 -Default entity-mode: pojo
+2019-07-16 14:56:22,669 DEBUG Settings:78 -Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2019-07-16 14:56:22,669 DEBUG Settings:79 -Allow initialization of lazy state outside session : disabled
+2019-07-16 14:56:22,669 DEBUG Settings:81 -Using BatchFetchStyle : LEGACY
+2019-07-16 14:56:22,669 DEBUG Settings:82 -Default batch fetch size: -1
+2019-07-16 14:56:22,669 DEBUG Settings:83 -Maximum outer join fetch depth: 2
+2019-07-16 14:56:22,670 DEBUG Settings:84 -Default null ordering: NONE
+2019-07-16 14:56:22,670 DEBUG Settings:85 -Order SQL updates by primary key: disabled
+2019-07-16 14:56:22,670 DEBUG Settings:86 -Order SQL inserts for batching: disabled
+2019-07-16 14:56:22,670 DEBUG Settings:88 -multi-tenancy strategy : NONE
+2019-07-16 14:56:22,670 DEBUG Settings:90 -JTA Track by Thread: enabled
+2019-07-16 14:56:22,670 DEBUG Settings:92 -Query language substitutions: {}
+2019-07-16 14:56:22,670 DEBUG Settings:93 -Named query checking : enabled
+2019-07-16 14:56:22,671 DEBUG Settings:95 -Second-level cache: disabled
+2019-07-16 14:56:22,671 DEBUG Settings:96 -Second-level query cache: disabled
+2019-07-16 14:56:22,671 DEBUG Settings:97 -Second-level query cache factory: null
+2019-07-16 14:56:22,671 DEBUG Settings:98 -Second-level cache region prefix: null
+2019-07-16 14:56:22,671 DEBUG Settings:99 -Optimize second-level cache for minimal puts: disabled
+2019-07-16 14:56:22,671 DEBUG Settings:100 -Structured second-level cache entries: disabled
+2019-07-16 14:56:22,672 DEBUG Settings:101 -Second-level cache direct-reference entries: disabled
+2019-07-16 14:56:22,672 DEBUG Settings:102 -Automatic eviction of collection cache: disabled
+2019-07-16 14:56:22,672 DEBUG Settings:104 -JDBC batch size: 15
+2019-07-16 14:56:22,672 DEBUG Settings:105 -JDBC batch updates for versioned data: enabled
+2019-07-16 14:56:22,672 DEBUG Settings:106 -Scrollable result sets: enabled
+2019-07-16 14:56:22,672 DEBUG Settings:107 -Wrap result sets: disabled
+2019-07-16 14:56:22,672 DEBUG Settings:108 -JDBC3 getGeneratedKeys(): enabled
+2019-07-16 14:56:22,672 DEBUG Settings:109 -JDBC result set fetch size: null
+2019-07-16 14:56:22,673 DEBUG Settings:110 -Connection release mode: ON_CLOSE
+2019-07-16 14:56:22,673 DEBUG Settings:111 -Generate SQL with comments: disabled
+2019-07-16 14:56:22,673 DEBUG Settings:113 -JPA compliance - query : 
+2019-07-16 14:56:22,673 DEBUG Settings:114 -JPA compliance - closed-handling : 
+2019-07-16 14:56:22,673 DEBUG Settings:115 -JPA compliance - lists : 
+2019-07-16 14:56:22,673 DEBUG Settings:116 -JPA compliance - transactions : 
+2019-07-16 14:56:22,710 DEBUG SessionFactoryImpl:252 -Session factory constructed with filter configurations : {}
+2019-07-16 14:56:22,710 DEBUG SessionFactoryImpl:253 -Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.id.new_generator_mappings=true, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@30798137, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/lib/tools.jar:/Users/leideng/IdeaProjects/parkfee/target/classes:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.6.RELEASE/spring-boot-starter-data-jpa-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.6.RELEASE/spring-boot-starter-aop-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.6.RELEASE/spring-boot-starter-jdbc-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar:/Users/leideng/.m2/repository/org/springframework/spring-jdbc/5.1.8.RELEASE/spring-jdbc-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar:/Users/leideng/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/leideng/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/leideng/.m2/repository/org/hibernate/hibernate-core/5.3.10.Final/hibernate-core-5.3.10.Final.jar:/Users/leideng/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/leideng/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/leideng/.m2/repository/org/javassist/javassist/3.23.2-GA/javassist-3.23.2-GA.jar:/Users/leideng/.m2/repository/net/bytebuddy/byte-buddy/1.9.13/byte-buddy-1.9.13.jar:/Users/leideng/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/leideng/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/Users/leideng/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar:/Users/leideng/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/Users/leideng/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar:/Users/leideng/.m2/repository/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-orm/5.1.8.RELEASE/spring-orm-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-aspects/5.1.8.RELEASE/spring-aspects-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.6.RELEASE/spring-boot-starter-web-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.6.RELEASE/spring-boot-starter-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot/2.1.6.RELEASE/spring-boot-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/leideng/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.6.RELEASE/spring-boot-starter-json-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.9/jackson-datatype-jdk8-2.9.9.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.9/jackson-datatype-jsr310-2.9.9.jar:/Users/leideng/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.9/jackson-module-parameter-names-2.9.9.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.6.RELEASE/spring-boot-starter-tomcat-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar:/Users/leideng/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.21/tomcat-embed-el-9.0.21.jar:/Users/leideng/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.21/tomcat-embed-websocket-9.0.21.jar:/Users/leideng/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar:/Users/leideng/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/leideng/.m2/repository/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar:/Users/leideng/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/Users/leideng/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/com/querydsl/querydsl-apt/4.2.1/querydsl-apt-4.2.1.jar:/Users/leideng/.m2/repository/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1.jar:/Users/leideng/.m2/repository/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar:/Users/leideng/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.3.1/ecj-4.3.1.jar:/Users/leideng/.m2/repository/org/reflections/reflections/0.9.9/reflections-0.9.9.jar:/Users/leideng/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar:/Users/leideng/.m2/repository/com/querydsl/querydsl-jpa/4.2.1/querydsl-jpa-4.2.1.jar:/Users/leideng/.m2/repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.jar:/Users/leideng/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/leideng/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/leideng/.m2/repository/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar:/Users/leideng/.m2/repository/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar:/Users/leideng/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/leideng/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/leideng/.m2/repository/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/leideng/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/2.1.6.RELEASE/spring-boot-starter-log4j2-2.1.6.RELEASE.jar:/Users/leideng/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar:/Users/leideng/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/leideng/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/leideng/.m2/repository/org/apache/logging/log4j/log4j-jul/2.11.2/log4j-jul-2.11.2.jar:/Users/leideng/.m2/repository/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar, java.vm.vendor=AdoptOpenJDK, sun.arch.data.model=64, catalina.useNaming=false, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Shanghai, os.name=Mac OS X, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=CN, sun.boot.library.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib, spring.application.admin.enabled=true, sun.java.command=com.daninedd.parkfee.ParkfeeApplication, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@455da438, com.sun.management.jmxremote=, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, javax.persistence.sharedCache.mode=UNSPECIFIED, spring.liveBeansView.mbeanDomain=, sun.cpu.endian=little, user.home=/Users/leideng, user.language=zh, java.specification.vendor=Oracle Corporation, java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre, spring.output.ansi.enabled=always, file.separator=/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes, hibernate.hbm2ddl.auto=update, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=1.8.0_212-b04, user.name=leideng, spring.jmx.enabled=true, path.separator=:, os.version=10.14.5, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed, java.runtime.name=OpenJDK Runtime Environment, hibernate.ejb.persistenceUnitName=default, file.encoding=UTF-8, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, LOG_FILE=my.log, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/var/folders/7_/dwhbj_l51tx4mv_mcfbnj2m80000gn/T/, com.zaxxer.hikari.pool_number=1, catalina.home=/private/var/folders/7_/dwhbj_l51tx4mv_mcfbnj2m80000gn/T/tomcat.4965624814965590642.8888, java.version=1.8.0_212, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=/Users/leideng/IdeaProjects/parkfee, os.arch=x86_64, PID=48193, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, catalina.base=/private/var/folders/7_/dwhbj_l51tx4mv_mcfbnj2m80000gn/T/tomcat.4965624814965590642.8888, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@60652518, java.library.path=/Users/leideng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=AdoptOpenJDK, java.vm.info=mixed mode, java.vm.version=25.212-b04, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, hibernate.connection.datasource=HikariDataSource (HikariPool-1), sun.io.unicode.encoding=UnicodeBig, java.ext.dirs=/Users/leideng/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.class.version=52.0, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16}
+2019-07-16 14:56:22,721 DEBUG TraversableResolvers:93 -Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-07-16 14:56:22,722 DEBUG TraversableResolvers:103 -Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-07-16 14:56:22,722 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-07-16 14:56:22,722 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2019-07-16 14:56:22,722 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-07-16 14:56:22,723 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-07-16 14:56:22,726 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2019-07-16 14:56:22,728 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-07-16 14:56:22,728 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-07-16 14:56:22,728 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-07-16 14:56:22,728 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-07-16 14:56:22,728 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-07-16 14:56:22,729 DEBUG ClassLoaderAccessImpl:60 -Not known whether passed class name [com.daninedd.parkfee.parkfee.FeeDetailData] is safe
+2019-07-16 14:56:22,729 DEBUG ClassLoaderAccessImpl:62 -No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.daninedd.parkfee.parkfee.FeeDetailData
+2019-07-16 14:56:22,755 DEBUG JaccIntegrator:80 -Skipping JACC integration as it was not enabled
+2019-07-16 14:56:22,756 DEBUG SessionFactoryImpl:292 -Instantiated session factory
+2019-07-16 14:56:22,756 DEBUG TypeConfiguration$Scope:147 -Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@42107318] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@24a3d414]
+2019-07-16 14:56:22,772 DEBUG ClassLoaderAccessImpl:60 -Not known whether passed class name [com.daninedd.parkfee.parkfee.FeeDetailData] is safe
+2019-07-16 14:56:22,772 DEBUG ClassLoaderAccessImpl:62 -No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.daninedd.parkfee.parkfee.FeeDetailData
+2019-07-16 14:56:22,783 DEBUG ClassLoaderAccessImpl:60 -Not known whether passed class name [com.daninedd.parkfee.parkfee.FeeDetailData] is safe
+2019-07-16 14:56:22,783 DEBUG ClassLoaderAccessImpl:62 -No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.daninedd.parkfee.parkfee.FeeDetailData
+2019-07-16 14:56:22,909 DEBUG AbstractEntityPersister:3785 -Static SQL for entity: com.daninedd.parkfee.parkfee.FeeDetailData
+2019-07-16 14:56:22,909 DEBUG AbstractEntityPersister:3790 - Version select: select id from parkfee_fee_detail where id =?
+2019-07-16 14:56:22,909 DEBUG AbstractEntityPersister:3793 - Snapshot select: select feedetaild_.id, feedetaild_.create_time as create_t2_0_, feedetaild_.date as date3_0_, feedetaild_.fee as fee4_0_ from parkfee_fee_detail feedetaild_ where feedetaild_.id=?
+2019-07-16 14:56:22,909 DEBUG AbstractEntityPersister:394 - Insert 0: insert into parkfee_fee_detail (create_time, date, fee, id) values (?, ?, ?, ?)
+2019-07-16 14:56:22,910 DEBUG AbstractEntityPersister:394 - Update 0: update parkfee_fee_detail set create_time=?, date=?, fee=? where id=?
+2019-07-16 14:56:22,910 DEBUG AbstractEntityPersister:394 - Delete 0: delete from parkfee_fee_detail where id=?
+2019-07-16 14:56:22,921 DEBUG QuerySpacesImpl:174 -Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1eb6037d]
+2019-07-16 14:56:22,923 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : createTime
+2019-07-16 14:56:22,923 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : date
+2019-07-16 14:56:22,923 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : fee
+2019-07-16 14:56:22,923 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 -Building LoadPlan...
+2019-07-16 14:56:22,930 DEBUG LoadQueryJoinAndFetchProcessor:102 -processing queryspace <gen:0>
+2019-07-16 14:56:22,934 DEBUG LoadPlanTreePrinter:55 -LoadPlan(entity=com.daninedd.parkfee.parkfee.FeeDetailData)
+    - Returns
+       - EntityReturnImpl(entity=com.daninedd.parkfee.parkfee.FeeDetailData, querySpaceUid=<gen:0>, path=com.daninedd.parkfee.parkfee.FeeDetailData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.daninedd.parkfee.parkfee.FeeDetailData)
+          - SQL table alias mapping - feedetaild0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-07-16 14:56:22,935 DEBUG EntityLoader:137 -Static select for entity com.daninedd.parkfee.parkfee.FeeDetailData [NONE]: select feedetaild0_.id as id1_0_0_, feedetaild0_.create_time as create_t2_0_0_, feedetaild0_.date as date3_0_0_, feedetaild0_.fee as fee4_0_0_ from parkfee_fee_detail feedetaild0_ where feedetaild0_.id=?
+2019-07-16 14:56:22,935 DEBUG QuerySpacesImpl:174 -Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b5b9521]
+2019-07-16 14:56:22,936 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : createTime
+2019-07-16 14:56:22,936 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : date
+2019-07-16 14:56:22,936 DEBUG MetamodelGraphWalker:139 -Visiting attribute path : fee
+2019-07-16 14:56:22,936 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 -Building LoadPlan...
+2019-07-16 14:56:22,936 DEBUG LoadQueryJoinAndFetchProcessor:102 -processing queryspace <gen:0>
+2019-07-16 14:56:22,936 DEBUG LoadPlanTreePrinter:55 -LoadPlan(entity=com.daninedd.parkfee.parkfee.FeeDetailData)
+    - Returns
+       - EntityReturnImpl(entity=com.daninedd.parkfee.parkfee.FeeDetailData, querySpaceUid=<gen:0>, path=com.daninedd.parkfee.parkfee.FeeDetailData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.daninedd.parkfee.parkfee.FeeDetailData)
+          - SQL table alias mapping - feedetaild0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2019-07-16 14:56:22,937 DEBUG EntityLoader:137 -Static select for entity com.daninedd.parkfee.parkfee.FeeDetailData [READ]: select feedetaild0_.id as id1_0_0_, feedetaild0_.create_time as create_t2_0_0_, feedetaild0_.date as date3_0_0_, feedetaild0_.fee as fee4_0_0_ from parkfee_fee_detail feedetaild0_ where feedetaild0_.id=?
+2019-07-16 14:56:22,945 DEBUG Loader:38 -Static select for action ACTION_MERGE on entity com.daninedd.parkfee.parkfee.FeeDetailData: select feedetaild0_.id as id1_0_0_, feedetaild0_.create_time as create_t2_0_0_, feedetaild0_.date as date3_0_0_, feedetaild0_.fee as fee4_0_0_ from parkfee_fee_detail feedetaild0_ where feedetaild0_.id=?
+2019-07-16 14:56:22,945 DEBUG Loader:38 -Static select for action ACTION_REFRESH on entity com.daninedd.parkfee.parkfee.FeeDetailData: select feedetaild0_.id as id1_0_0_, feedetaild0_.create_time as create_t2_0_0_, feedetaild0_.date as date3_0_0_, feedetaild0_.fee as fee4_0_0_ from parkfee_fee_detail feedetaild0_ where feedetaild0_.id=?
+2019-07-16 14:56:22,988 DEBUG Table:516 -No alter strings for table : hibernate_sequence
+2019-07-16 14:56:22,988 DEBUG Table:516 -No alter strings for table : parkfee_fee_detail
+2019-07-16 14:56:22,989 DEBUG NamedQueryRepository:151 -Checking 0 named HQL queries
+2019-07-16 14:56:22,989 DEBUG NamedQueryRepository:167 -Checking 0 named SQL queries
+2019-07-16 14:56:22,990 DEBUG SessionFactoryRegistry:52 -Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@18692e80
+2019-07-16 14:56:22,991 DEBUG SessionFactoryRegistry:74 -Registering SessionFactory: 7af24a36-eea1-4ed3-93f8-2ce4e9e1a161 (<unnamed>)
+2019-07-16 14:56:22,991 DEBUG SessionFactoryRegistry:81 -Not binding SessionFactory to JNDI, no JNDI name configured
+2019-07-16 14:56:23,096 DEBUG StatisticsInitiator:101 -Statistics initialized [enabled=false]
+2019-07-16 14:56:23,249 DEBUG JPAQuery:233 -select feeDetailData from FeeDetailData feeDetailData
+2019-07-16 14:56:23,258 DEBUG QueryTranslatorFactoryInitiator:45 -QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@3b8b5b40
+2019-07-16 14:56:23,258 INFO  QueryTranslatorFactoryInitiator:47 -HHH000397: Using ASTQueryTranslatorFactory
+2019-07-16 14:56:23,270 DEBUG QueryTranslatorImpl:287 -parse() - HQL: select feeDetailData
+from com.daninedd.parkfee.parkfee.FeeDetailData feeDetailData
+2019-07-16 14:56:23,274 DEBUG ErrorTracker:97 -throwQueryException() : no errors
+2019-07-16 14:56:23,278 DEBUG QueryTranslatorImpl:308 ---- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'daninedd'
+       |     |  |  |  \-[IDENT] Node: 'parkfee'
+       |     |  |  \-[IDENT] Node: 'parkfee'
+       |     |  \-[IDENT] Node: 'FeeDetailData'
+       |     \-[ALIAS] Node: 'feeDetailData'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'feeDetailData'
+
+2019-07-16 14:56:23,289 DEBUG HqlSqlBaseWalker:124 -select << begin [level=1, statement=select]
+2019-07-16 14:56:23,298 DEBUG FromElement:146 -FromClause{level=1} : com.daninedd.parkfee.parkfee.FeeDetailData (feeDetailData) -> feedetaild0_
+2019-07-16 14:56:23,299 DEBUG FromReferenceNode:60 -Resolved : feeDetailData -> feedetaild0_.id
+2019-07-16 14:56:23,300 DEBUG HqlSqlBaseWalker:128 -select : finishing up [level=1, statement=select]
+2019-07-16 14:56:23,300 DEBUG HqlSqlWalker:752 -processQuery() :  ( SELECT ( {select clause} feedetaild0_.id ) ( FromClause{level=1} parkfee_fee_detail feedetaild0_ ) )
+2019-07-16 14:56:23,306 DEBUG JoinProcessor:192 -Using FROM fragment [parkfee_fee_detail feedetaild0_]
+2019-07-16 14:56:23,306 DEBUG HqlSqlBaseWalker:132 -select >> end [level=1, statement=select]
+2019-07-16 14:56:23,307 DEBUG QueryTranslatorImpl:274 ---- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (parkfee_fee_detail)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'feedetaild0_.id as id1_0_' {alias=feeDetailData, className=com.daninedd.parkfee.parkfee.FeeDetailData, tableAlias=feedetaild0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'feedetaild0_.create_time as create_t2_0_, feedetaild0_.date as date3_0_, feedetaild0_.fee as fee4_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[feeDetailData], fromElementByTableAlias=[feedetaild0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'parkfee_fee_detail feedetaild0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=feeDetailData,role=null,tableName=parkfee_fee_detail,tableAlias=feedetaild0_,origin=null,columns={,className=com.daninedd.parkfee.parkfee.FeeDetailData}}
+
+2019-07-16 14:56:23,307 DEBUG ErrorTracker:97 -throwQueryException() : no errors
+2019-07-16 14:56:23,310 DEBUG QueryTranslatorImpl:253 -HQL: select feeDetailData
+from com.daninedd.parkfee.parkfee.FeeDetailData feeDetailData
+2019-07-16 14:56:23,310 DEBUG QueryTranslatorImpl:254 -SQL: select feedetaild0_.id as id1_0_, feedetaild0_.create_time as create_t2_0_, feedetaild0_.date as date3_0_, feedetaild0_.fee as fee4_0_ from parkfee_fee_detail feedetaild0_
+2019-07-16 14:56:23,310 DEBUG ErrorTracker:97 -throwQueryException() : no errors
+2019-07-16 14:56:23,333 DEBUG SQL:94 -select feedetaild0_.id as id1_0_, feedetaild0_.create_time as create_t2_0_, feedetaild0_.date as date3_0_, feedetaild0_.fee as fee4_0_ from parkfee_fee_detail feedetaild0_
+2019-07-16 14:56:23,340 DEBUG Loader:384 -Result set row: 0
+2019-07-16 14:56:23,344 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#1]
+2019-07-16 14:56:23,350 DEBUG Loader:384 -Result set row: 1
+2019-07-16 14:56:23,351 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#2]
+2019-07-16 14:56:23,351 DEBUG Loader:384 -Result set row: 2
+2019-07-16 14:56:23,351 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#3]
+2019-07-16 14:56:23,351 DEBUG Loader:384 -Result set row: 3
+2019-07-16 14:56:23,352 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#4]
+2019-07-16 14:56:23,352 DEBUG Loader:384 -Result set row: 4
+2019-07-16 14:56:23,352 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#5]
+2019-07-16 14:56:23,352 DEBUG Loader:384 -Result set row: 5
+2019-07-16 14:56:23,352 DEBUG Loader:1532 -Result row: EntityKey[com.daninedd.parkfee.parkfee.FeeDetailData#6]
+2019-07-16 14:56:23,353 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#1]
+2019-07-16 14:56:23,355 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#1]
+2019-07-16 14:56:23,355 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#2]
+2019-07-16 14:56:23,355 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#2]
+2019-07-16 14:56:23,355 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#3]
+2019-07-16 14:56:23,355 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#3]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#4]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#4]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#5]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#5]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:145 -Resolving associations for [com.daninedd.parkfee.parkfee.FeeDetailData#6]
+2019-07-16 14:56:23,356 DEBUG TwoPhaseLoad:290 -Done materializing entity [com.daninedd.parkfee.parkfee.FeeDetailData#6]
+2019-07-16 14:56:23,374 DEBUG TraversableResolvers:93 -Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-07-16 14:56:23,375 DEBUG TraversableResolvers:103 -Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-07-16 14:56:23,375 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2019-07-16 14:56:23,377 DEBUG TraversableResolvers:93 -Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2019-07-16 14:56:23,377 DEBUG TraversableResolvers:103 -Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2019-07-16 14:56:23,378 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-07-16 14:56:23,378 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-07-16 14:56:23,378 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-07-16 14:56:23,379 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-07-16 14:56:23,379 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2019-07-16 14:56:23,379 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2019-07-16 14:56:23,380 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-07-16 14:56:23,380 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-07-16 14:56:23,383 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-07-16 14:56:23,383 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-07-16 14:56:23,383 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-07-16 14:56:23,383 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-07-16 14:56:23,383 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-07-16 14:56:23,589 WARN  JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:225 -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-16 14:56:23,705 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-127.0.0.1-8888"]
+2019-07-16 14:56:23,734 INFO  ParkfeeApplication:59 -Started ParkfeeApplication in 3.345 seconds (JVM running for 3.946)
+2019-07-16 14:56:52,354 DEBUG HikariPool:411 -HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-07-16 14:56:56,113 DEBUG SessionFactoryImpl:792 -HHH000031: Closing
+2019-07-16 14:56:56,114 DEBUG TypeConfiguration$Scope:312 -Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4d237b5a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@24a3d414]
+2019-07-16 14:56:56,116 DEBUG AbstractServiceRegistryImpl:418 -Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2019-07-16 14:56:56,116 DEBUG BootstrapServiceRegistryImpl:295 -Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2019-07-16 14:56:56,117 INFO  HikariDataSource:350 -HikariPool-1 - Shutdown initiated...
+2019-07-16 14:56:56,117 DEBUG HikariPool:411 -HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2019-07-16 14:56:56,118 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35dece42: (connection evicted)
+2019-07-16 14:56:56,120 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7fd0393c: (connection evicted)
+2019-07-16 14:56:56,120 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f190fc7: (connection evicted)
+2019-07-16 14:56:56,121 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ec2cc48: (connection evicted)
+2019-07-16 14:56:56,121 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e9353e2: (connection evicted)
+2019-07-16 14:56:56,121 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5a8cf633: (connection evicted)
+2019-07-16 14:56:56,122 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fb7fb28: (connection evicted)
+2019-07-16 14:56:56,122 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@508eb1ef: (connection evicted)
+2019-07-16 14:56:56,122 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2438193a: (connection evicted)
+2019-07-16 14:56:56,123 DEBUG PoolBase:129 -HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@672fd498: (connection evicted)
+2019-07-16 14:56:56,123 DEBUG HikariPool:411 -HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-07-16 14:56:56,123 INFO  HikariDataSource:352 -HikariPool-1 - Shutdown completed.

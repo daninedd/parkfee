@@ -175,7 +175,7 @@ public class ScheduledService {
             Date date = sdf.parse(dateStr);
             Calendar cal = Calendar.getInstance();
             cal.setTime(date);
-            isWeekend = cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY || cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY;
+            isWeekend = cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY;
         } catch (java.text.ParseException e) {
             e.printStackTrace();
         }

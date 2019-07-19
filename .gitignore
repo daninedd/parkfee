@@ -32,3 +32,4 @@ build/
 
 ### log ###
 my.log
+my.log.*

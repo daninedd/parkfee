@@ -27,10 +27,7 @@ public class MessageUtil {
             for (Element element : list) {
                 map.put(element.getName(), element.getText());
             }
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (DocumentException e) {
+        } catch (IOException | DocumentException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }finally{
